@@ -18,7 +18,7 @@ the Tidal Road, which floods at high tide. Its hot springs are
 taxed at the border.
 
 The holder is Ingrid Sólveig Halvorsdóttir, born 14 June 1982 in
-Ternvik, a cod boat skipper. Her portrait is a photographic
+Ternvik, a cod boat captain. Her portrait is a photographic
 portrait made in-session (`portrait.jpg`); no face is drawn in
 code.
 
@@ -28,17 +28,18 @@ Left page, the data page: state emblem (puffin over three waves),
 bilingual English/Velmaran labels, passport VM 0417826, issued
 12 March 2024 in Ternvik, expiring 12 March 2034, and a
 machine-readable zone built with real ICAO 9303 check digits,
-computed in code.
+computed in code and self-checked at run time.
 
 Right page, visas: six stamps in chronological order, every one
 dated after the passport was issued. Bergen, Norway, 28 May 2024;
 Reykjavik, Iceland, 9 June 2024; Lerwick, Shetland, 17 September
-2025; Copenhagen, Denmark, 3 February 2026; and the return to
-Ternvik, 21 February 2026, on the ferry MV Sætern.
+2025; Tórshavn, Faroe Islands, 30 October 2025; Copenhagen,
+Denmark, 3 February 2026; and the return home to Ternvik,
+21 February 2026, on the ferry MV Sætern.
 
-The telling detail is the purple condition stamp: TIDAL ROAD
-ONLY, no overland crossing at low tide, geothermal bath tax
-450 kr paid.
+The telling detail is the purple border-control condition stamp:
+TIDAL ROAD ONLY — no overland crossing at low tide — geothermal
+bath tax 450 kr paid.
 
 ## Run it
 
@@ -46,7 +47,7 @@ ONLY, no overland crossing at low tide, geothermal bath tax
 python3 main.py
 ```
 
-Writes `/output/entry.png` (1024 by 724, about 255 KB, PNG).
+Writes `/output/entry.png` (1024 by 724, about 213 KB, PNG).
 No network. All randomness is seeded, so two runs produce the
 same file byte for byte.
 
